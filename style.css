@@ -51,3 +51,18 @@ background-color: red;
 .reset{
     background-color: aqua;
 }
+@media only screen and (max-width: 360px){
+.inner{
+    width: 32vw;
+}
+button{
+    width: 10vw;
+}
+.outer{
+        height: 20vh;
+            display: flex;
+            width: 70vw;
+            align-items: center;
+            justify-content: center;
+}
+}
